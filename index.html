@@ -13,6 +13,11 @@
     crossorigin="anonymous"
   />
   <body>
+    <script>
+    if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_BACK_FORWARD) {
+    alert('Told Ya!! 🤷‍♂️');
+}
+  </script>
 <div id="app" class="d-flex flex-column align-items-center justify-content-center" style="height:100vh">
     <h1>Don't Click ffs!!</h1>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="btn btn-primary" role="button">Just Don't!</a>
